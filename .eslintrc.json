@@ -30,8 +30,7 @@
       "error",
       {
         "argsIgnorePattern": "_"
-      }
-    ],
+      }],
     "import/extensions": [
       "error",
       "ignorePackages",
