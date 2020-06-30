@@ -73,6 +73,6 @@ describe('UpdateUserAvatar', () => {
     });
 
     expect(deleteFile).toHaveBeenCalledWith('avatar.jpg');
-    expect(user.avatar).toBe('avatar.jpg');
+    expect(user.avatar).toBe('avatar2.jpg');
   });
 });
