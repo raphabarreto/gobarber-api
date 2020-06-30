@@ -72,7 +72,7 @@ describe('AuthenticateUser', () => {
       password: '123456',
     });
 
-    expect(
+    await expect(
       authenticateUser.execute({
         email: 'tnt.raphael@gmail.com',
         password: 'wrong-password',
