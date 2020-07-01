@@ -12,7 +12,7 @@ interface IRequest {
 }
 
 @injectable()
-class SentForgotPasswordEmailService {
+class SendForgotPasswordEmailService {
   constructor(
     @inject('UsersRepository')
     private usersRepository: IUsersRepository,
@@ -40,4 +40,4 @@ class SentForgotPasswordEmailService {
   }
 }
 
-export default SentForgotPasswordEmailService;
+export default SendForgotPasswordEmailService;
